@@ -1,0 +1,10 @@
+.woocommerce .wp-block-woocommerce-product-image-gallery {
+  position: relative; }
+  .woocommerce .wp-block-woocommerce-product-image-gallery div.images {
+    width: unset !important; }
+  .woocommerce .wp-block-woocommerce-product-image-gallery span.onsale {
+    right: unset;
+    z-index: 1;
+    left: -1rem; }
+
+/*# sourceMappingURL=style.css.map */

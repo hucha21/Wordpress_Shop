@@ -1,0 +1,57 @@
+/*
+Error: File to import not found or unreadable: node_modules/@wordpress/base-styles/breakpoints.
+       Load path: C:/xampp/htdocs/DWizards_Shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/form-token-field
+        on line 7 of C:\xampp\htdocs\DWizards_Shop\wp-content\plugins\woocommerce\packages\woocommerce-blocks\assets\js\base\components\form-token-field\vendor.scss
+
+2: // We need to import and scope the popover style under the
+3: // wc-blocks-attribute-filter-popover class to prevent conflict.
+4: // Tooltip must be under the same scope to work properly.
+5: .wc-blocks-components-form-token-field-wrapper {
+6: 	/* stylelint-disable no-invalid-position-at-import-rule *\/
+7: 	@import "node_modules/@wordpress/base-styles/breakpoints";
+8: 	@import "node_modules/@wordpress/base-styles/mixins";
+9: 	@import "node_modules/wordpress-components/src/popover/style";
+10: 	@import "node_modules/wordpress-components/src/tooltip/style";
+11: 	/* stylelint-enable no-invalid-position-at-import-rule *\/
+12: }
+
+Backtrace:
+C:\xampp\htdocs\DWizards_Shop\wp-content\plugins\woocommerce\packages\woocommerce-blocks\assets\js\base\components\form-token-field\vendor.scss:7
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:45:in `import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:108:in `rescue in invalid_import_parent?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:102:in `invalid_import_parent?'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:171:in `try_send'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:14:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:38:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:51:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:59:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/check_nesting.rb:17:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:24:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:35:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: node_modules/@wordpress/base-styles/breakpoints.\A        Load path: C:/xampp/htdocs/DWizards_Shop/wp-content/plugins/woocommerce/packages/woocommerce-blocks/assets/js/base/components/form-token-field\A         on line 7 of C:\xampp\htdocs\DWizards_Shop\wp-content\plugins\woocommerce\packages\woocommerce-blocks\assets\js\base\components\form-token-field\vendor.scss\A \A 2: // We need to import and scope the popover style under the\A 3: // wc-blocks-attribute-filter-popover class to prevent conflict.\A 4: // Tooltip must be under the same scope to work properly.\A 5: .wc-blocks-components-form-token-field-wrapper {\A 6: 	/* stylelint-disable no-invalid-position-at-import-rule */\A 7: 	@import \"node_modules/@wordpress/base-styles/breakpoints\";\A 8: 	@import \"node_modules/@wordpress/base-styles/mixins\";\A 9: 	@import \"node_modules/wordpress-components/src/popover/style\";\A 10: 	@import \"node_modules/wordpress-components/src/tooltip/style\";\A 11: 	/* stylelint-enable no-invalid-position-at-import-rule */\A 12: }"; }

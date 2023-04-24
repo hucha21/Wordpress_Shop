@@ -1,0 +1,84 @@
+2023-04-19T07:30:10+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::get_image_id() in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php:271
+Stack trace:
+#0 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\DWizards_Shop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\page.php(24): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\DWizards_Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\DWizards_Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DWizards_Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php on line 271
+
+2023-04-19T07:30:45+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::get_image_id() in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php:271
+Stack trace:
+#0 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\DWizards_Shop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\page.php(24): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\DWizards_Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\DWizards_Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DWizards_Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php on line 271
+
+2023-04-19T07:32:28+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::get_image_id() in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php:271
+Stack trace:
+#0 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\DWizards_Shop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\page.php(24): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\DWizards_Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\DWizards_Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DWizards_Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php on line 271
+
+2023-04-19T07:32:39+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::get_image_id() in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php:271
+Stack trace:
+#0 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\DWizards_Shop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\page.php(24): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\DWizards_Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\DWizards_Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DWizards_Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php on line 271
+
+2023-04-19T07:33:24+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::get_image_id() in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php:271
+Stack trace:
+#0 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\DWizards_Shop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\page.php(24): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\DWizards_Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\DWizards_Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DWizards_Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php on line 271
+
+2023-04-19T07:38:59+00:00 CRITICAL Uncaught Error: Call to undefined method stdClass::get_image_id() in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php:271
+Stack trace:
+#0 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\DWizards_Shop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\page.php(24): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\DWizards_Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\DWizards_Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DWizards_Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php on line 271
+
+2023-04-19T07:42:50+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::image_id() in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php:300
+Stack trace:
+#0 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(785): require()
+#1 C:\xampp\htdocs\DWizards_Shop\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', false, Array)
+#2 C:\xampp\htdocs\DWizards_Shop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\page.php(24): get_template_part('template-parts/...', 'page')
+#4 C:\xampp\htdocs\DWizards_Shop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\DWizards_Shop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\DWizards_Shop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\DWizards_Shop\wp-content\themes\dw_husnijahafuric\template-parts\content-page.php on line 300
+

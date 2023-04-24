@@ -1,0 +1,49 @@
+/*
+Error: Invalid CSS after "	height: math": expected ";", was ".div(em(20px), ..."
+        on line 16 of C:\xampp\htdocs\DWizards_Shop\wp-content\plugins\woocommerce\packages\woocommerce-blocks\assets\js\blocks\mini-cart\quantity-badge\style.scss
+
+11: 	box-sizing: border-box;
+12: 	color: inherit;
+13: 	display: flex;
+14: 	font-size: 0.875em;
+15: 	font-weight: 600;
+16: 	height: math.div(em(20px), 0.875);
+17: 	justify-content: center;
+18: 	margin-left: math.div(em(-10px), 0.875);
+19: 	min-width: math.div(em(20px), 0.875);
+20: 	padding: 0 em($gap-smallest);
+21: 	transform: translateY(-50%);
+
+Backtrace:
+C:\xampp\htdocs\DWizards_Shop\wp-content\plugins\woocommerce\packages\woocommerce-blocks\assets\js\blocks\mini-cart\quantity-badge\style.scss:16
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:804:in `block in try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `call'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1254:in `rethrow'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:809:in `try_declaration'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"	height: math\": expected \";\", was \".div(em(20px), ...\"\A         on line 16 of C:\xampp\htdocs\DWizards_Shop\wp-content\plugins\woocommerce\packages\woocommerce-blocks\assets\js\blocks\mini-cart\quantity-badge\style.scss\A \A 11: 	box-sizing: border-box;\A 12: 	color: inherit;\A 13: 	display: flex;\A 14: 	font-size: 0.875em;\A 15: 	font-weight: 600;\A 16: 	height: math.div(em(20px), 0.875);\A 17: 	justify-content: center;\A 18: 	margin-left: math.div(em(-10px), 0.875);\A 19: 	min-width: math.div(em(20px), 0.875);\A 20: 	padding: 0 em($gap-smallest);\A 21: 	transform: translateY(-50%);"; }
